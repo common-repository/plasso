@@ -1,0 +1,35 @@
+
+/* Default Plasso Button Styles
+---------------------------------------------------------------------------------------------------- */
+
+.plasso-button {
+  background-color: #3e70ff;
+  border: none !important;
+  border-radius: 4px;
+  display: inline-block;
+  position: relative;
+  padding: 14px 18px;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1em;
+  letter-spacing: 0.1em;
+  color: #ffffff !important;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  box-shadow: none !important;
+  opacity: 1;
+  transition-duration: 0.2s;
+  transition-property: opacity;
+}
+
+.plasso-button:hover {
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+.plasso-button:focus {
+  box-shadow: none !important;
+  outline: 0 !important;
+  color: rgba(255, 255, 255, 0.85);
+}
